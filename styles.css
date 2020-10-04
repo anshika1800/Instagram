@@ -1,0 +1,64 @@
+body{
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+}
+.structure{
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(farthest-corner at 20% 100%, #fcb045, #fd1d1d, #833ab4);
+    border-radius: 50px;
+    position: relative;
+}
+
+.layer1{
+    width: 130px;
+    height: 130px;
+    border: 10px solid white;
+    border-radius: 50px;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+.dot{
+    width: 0;
+    height: 0;
+    border: 10px solid white;
+    border-radius: 50px;
+    position: absolute;
+    right: 15px;
+    top: 15px;   
+}
+
+.layer2{
+    width: 60px;
+    height: 60px;
+    border: 10px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 55px;
+    color: rgb(95, 2, 95);
+    margin-block-start: 30px;
+    margin-block-end: 4px;
+}
+
+a{
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 25px;
+    color: crimson;
+}
